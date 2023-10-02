@@ -200,8 +200,14 @@ h2 {
 /* order section css  */
 
 section.place-order-section {
-  width: 80%;
+  width: 100VH;
+  height: 100VH;
   margin: auto;
+  background-image: url("p4.png");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-origin: content-box;
 }
 
 /* --- section */
