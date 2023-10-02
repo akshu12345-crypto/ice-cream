@@ -211,3 +211,53 @@ section.place-order-section {
 }
 
 /* --- section */
+.place-order-section-text1 {
+  font-size: 39px;
+  letter-spacing: 0px;
+  line-height: 48px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto Slab";
+}
+
+.place-order-section-text2 {
+  font-size: 32px;
+letter-spacing: 0px;
+line-height: 42px;
+color: #000000;
+font-weight: 250;
+font-family: "Roboto Slab";
+}
+
+.place-order-section-text3 {
+  font-size: 25px;
+letter-spacing: 0px;
+line-height: 33px;
+text-decoration: underline;
+color: #000000;
+font-weight: 400;
+font-family: "Roboto Slab";
+}
+
+.star-program {
+  width: 992px;
+  height: 710px;
+  border-radius: 110px;
+  background-color: #ffffff;
+}
+
+.place-order-section-text3 {
+  font-size: 17px;
+letter-spacing: 0px;
+line-height: 23px;
+text-decoration: underline;
+color: #000000;
+font-weight: 500;
+font-family: "Roboto Slab";
+float: left;
+}
+
+.star-program-image {
+  background-image: url("p3.png");
+  float: right;
+}
