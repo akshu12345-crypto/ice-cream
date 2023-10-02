@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: #f1e8e3;
+}
+/* ______________header style__________ */
+
+div .mainheader {
+  background-image: url("p4.png");
+  position: relative;
+}
+header.mainheader {
+  display: flex;
+  align-items: stretch;
+  width: 1183px;
+  height: 167px;
+  border-radius: 0px 0px 80px 80px;
+  background-color: #b68e76;
+  justify-content: center;
+  margin-left: 153px;
+  margin: 0px auto;
+  flex-direction: column;
+  box-shadow: 0px 8px 10px 1px gray;
+}
+.navigation-text {
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 19px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Roboto Slab";
+  text-decoration: none;
+}
+ul.navigation {
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+}
+ul.social-icons {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  align-items: center;
+}
+hr#vertical-hr {
+  height: 7px;
+  border: 1px solid #000;
+  margin: 0px 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-title{
+font-size: 72px;
+letter-spacing: 0px;
+line-height: 95px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Roboto Slab";
+text-align: center;
+}
+.baner-child-text1{
+font-size: 39px;
+letter-spacing: 0px;
+line-height: 48px;
+color: #000000;
+font-weight: 1000;
+font-family: "Roboto Slab";
+}
+.baner-child-text2{
+font-size: 32px;
+letter-spacing: 0px;
+line-height: 42px;
+color: #000000;
+font-weight: 200;
+font-family: "Roboto Slab";
+}
+select{
+  width: 389px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #ffffff;
+}
+.baner-child-text3{
+  font-size: 25px;
+  letter-spacing: 0px;
+  line-height: 33px;
+  text-decoration: underline;
+  color: #000000;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+}
+.baner-child-text4{
+width: 907px;
+height: 71px;
+font-size: 11px;
+letter-spacing: 0px;
+line-height: 14px;
+color: #30302f;
+font-weight: 400;
+font-family: "Barlow";
+}
+.button-1{
+width: 170px;
+height: 42px;
+border: none;
+border-radius: 21px;
+background-color: #b68e76;
+font-size: 22px;
+letter-spacing: 0px;
+line-height: 30px;
+font-weight: 700;
+color: #ffffff;
+font-family: "Roboto Slab";
+}
+.page1 {
+  background-image: url("p4.png");
+  /* position: relative; */
+  background-position: center;
+  display: flex;
+  height: 85vh;
+  /* background-image: url('img_girl.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  align-items: center;
+  justify-content: space-around;
+}.page1-child2 {
+  padding: 1.5rem;
+  height: 50%;
+  position: absolute;
+  border-radius: 50px 0 0 50px;
+  background-color: #ffffff;
+  /* position: fixed; */
+  /* top: 250px; */
+  right: 0;
+}
+.page1-child2-text1{
+font-size: 19px;
+letter-spacing: 0px;
+line-height: 23px;
+color: #30302f;
+font-weight: 500;
+font-family: "Roboto Slab";
+}
+.page1-button1-label1{
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 31px;
+text-decoration: underline;
+color: #30302f;
+font-weight: 500;
+font-family: "Roboto Slab";
+}
+.page1-button1-label2{
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 31px;
+text-decoration: underline;
+color: #30302f;
+font-weight: 500;
+font-family: "Roboto Slab";
+}
+.page1-child2-text1-button1{
+border-radius: 10px 0px 0px 10px;
+background-color: #b68e76;
+border: none;
+}
+.page1-child2-text1-button2{
+border-radius: 0px 10px 10px 0px;
+background-color: #b68e76;
+border: none;
+}
+.page1-child2-text1-button3{
+border-radius: 10px 0px 0px 10px;
+background-color: #b68e76;
+border: none;
+}
+.page1-child2-text1-button4{
+border-radius: 0px 10px 10px 0px;
+background-color: #b68e76;
+border: none;
+}
+
+/* order section css  */
+
+section.place-order-section {
+  width: 80%;
+  margin: auto;
+}
+
+/* --- section */
