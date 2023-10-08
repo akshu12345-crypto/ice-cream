@@ -200,16 +200,24 @@ h2 {
 /* order section css  */
 
 section.place-order-section {
-  width: 100VH;
-  height: 100VH;
+  height: 550px;
+  width: 80%;
   margin: auto;
-  background-image: url("p4.png");
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-origin: content-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
+img.icecream-img {
+  height: 550px;
+}
+.place-order-text-container {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
 /* --- section */
 .place-order-section-text1 {
   font-size: 39px;
@@ -238,41 +246,36 @@ color: #000000;
 font-weight: 400;
 font-family: "Roboto Slab";
 }
-
 .star-program {
-  width: 857px;
+  width: 70%;
+  margin: auto;
+  margin-top: 60px;
   height: 522px;
   border-radius: 110px;
   background-color: #ffffff;
   display: flex;
-  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .relative {
   position: relative;
 }
 .place-order-section-text3 {
-  font-size: 17px;
-letter-spacing: 0px;
-line-height: 23px;
-text-decoration: underline;
-color: #000000;
-font-weight: 500;
-font-family: "Roboto Slab";
-float: left;
+    font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 23px;
+  text-decoration: underline;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Roboto Slab";
+  float: left;
 }
 
 .star-program-image {
-  height: 100vh;
-  width: 101vh;
-  right: 0;
-  position: absolute;
-  display: flex;
+  height: 500px;
+  box-shadow: -8px 0px 17px -14px #00000059;
 }
 .star-program-text {
-  position: absolute;
-  /* display: flex; */
-  left: 0;
-  margin-right: 50%;
-  /* flex-wrap: wrap; */
-  flex-direction: column;
+  width: 45%;
 }
