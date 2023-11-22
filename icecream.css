@@ -59,6 +59,7 @@ hr#vertical-hr {
   gap: 50px;
 } */
 select {
+  padding-left: 8%;
   width: 389px;
   height: 45px;
   font-weight: 600;
@@ -193,6 +194,28 @@ h2 {
   font-weight: 500;
   font-family: "Roboto Slab";
 }
+.star-program-text1{
+  font-size: 39px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: 48px;
+  color: #000000;
+  font-weight: 400;
+  font-weight: 600;
+  font-family: "Roboto Slab";
+}
+.star-program-text3 {
+  font-size: 21px;
+  /* font-weight: 400; */
+  margin-top: 10%;
+  letter-spacing: 0px;
+  line-height: 23px;
+  text-decoration: underline;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Roboto Slab";
+  float: left;
+}
 .child1-text2 {
   font-size: 32px;
   letter-spacing: 0px;
@@ -201,7 +224,10 @@ h2 {
   font-weight: 250;
   font-family: "Roboto Slab";
 }
-
+p {
+  text-decoration-line: none;
+  margin-bottom: 4%;
+}
 
 
 /* order section css  */
@@ -210,10 +236,16 @@ section.place-order-section {
   height: 550px;
   width: 80%;
   margin: auto;
+  flex-basis: 50%;
+  background-image: url(p4.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 594px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   align-items: center;
+  flex-wrap: wrap;
 }
 img.icecream-img {
   height: 541px;
@@ -223,10 +255,12 @@ img.icecream-img {
 .place-order-text-container {
   height: 550px;
   display: flex;
-  flex-basis: 33%;
+  flex-basis: 28%;
   flex-direction: column;
-  justify-content: center;
   gap: 16px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 /* --- section */
 .place-order-section-text1 {
@@ -277,7 +311,7 @@ font-family: "Roboto Slab";
 
 .star-program-image {
   height: 500px;
-  box-shadow: -8px 0px 17px -14px #00000059;
+  box-shadow: -75px 0px 63px -69px #00000059;
 }
 .star-program-text {
   width: 45%;
@@ -350,6 +384,7 @@ footer {
   height: 42px;
   border: none;
   color: black;
+  padding-left: 4%;
   margin-top: 20px;
   /* font-weight: 700; */
   font-weight: 700;
@@ -361,6 +396,7 @@ footer {
   width: 285px;
   height: 42px;
   border: none;
+  padding-left: 4%;
   color: #000;
   margin-top: 10px;
   /* font-weight: 700; */
